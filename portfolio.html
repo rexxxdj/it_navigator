@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="it-navigator stv">
     <meta name="author" content="rexxx">
-    <title>services-it_navigator</title>
-    <!-- Bootstrap Core CSS -->
+    <title>portfolio-it_navigator</title>
+    <link rel="shortcut icon" href="images/navi_logo.ico" type="image/x-icon">
+    <!-- Bootstrap Core CSS -->    
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">    
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">    
@@ -40,9 +41,9 @@
     <div class="menu-wrap">
 		<nav class="menu">
 			<div class="icon-list">
-				<a href="index.html" class="logo page-scroll waves-effect">IT-Navigator</a>
+				<a href="#home" class="logo page-scroll waves-effect">IT-Navigator</a>
 				<a href="#about-us" class="page-scroll waves-effect"><i class="fa fa-fw fa-user"></i><span>About Us</span></a>
-                <a href="portfolio.html" class="page-scroll waves-effect"><i class="fa fa-fw fa-user"></i><span>Our Protfolio</span></a>
+                <a href="#portfolio" class="page-scroll waves-effect"><i class="fa fa-fw fa-user"></i><span>Our Protfolio</span></a>
 				<a href="#service" class="page-scroll waves-effect"><i class="fa fa-fw fa-bar-chart-o"></i><span>Services</span></a>
 				<a href="#team" class="page-scroll waves-effect"><i class="fa fa-fw fa-users"></i><span>Our Team</span></a>
 				<a href="#latest-news" class="page-scroll waves-effect"><i class="fa fa-fw fa-mortar-board"></i><span>Latest News</span></a>
@@ -54,30 +55,60 @@
 	</div>
 	<button class="menu-button waves-effect" id="open-button">Open Menu</button>
     <!-- End Off-Canvas Navigation Section -->
-    
-    <section id="service" class="services-section">
+        
+    <!-- Start Portfolio Section -->
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>REPORTING</h2>
+                        <h2>Our Portfolio</h2>
                         <p>Duis aute irure dolor in reprehenderit in voluptate</p>
-                    </div>
+                    </div>                        
                 </div>
             </div>
-            <h2><b>Data reporting</b></h2>
-            <b>Data reporting</b> is the process of collecting and submitting data to authorities entrusted with compiling statistics. Accurate data reporting gives rise to accurate analyses of the facts on the ground; inaccurate data reporting can lead to vastly uninformed decisions based on erroneous evidence. When data is not reported, the problem is known as underreporting; the opposite problem leads to false positives.
-            Data reporting can be an incredibly difficult endeavor. Census bureaus may hire even hundreds of thousands of workers to achieve the task of counting all of the residents of a country. Teachers use data from student assessments to determine grades; cellphone manufacturers rely on sales data from retailers to point the way to which models to increase production of. The effective management of nearly any company relies on accurate data.
-            <br><hr>
-            <h2><b>Problems arising from poor data reporting.</b></h2><br>
-            Poor data reporting leads to flawed information in the hands of decision-makers and journalists, especially when they fail to scrutinize the data and blindly trust the assertions of the data reporters. For example, poor data reporting from a crowd-sourced website led to a highly incorrect article by FiveThirtyEight journalist Walt Hickey.
-            <br><br>
-            Hickey's debut article for the site, which ironically focuses on properly interpreting statistics, attempted to determine the entrée item at McDonald's that provided the highest calorie count for the money. The mathematical techniques that he used (dividing the calorie total by the price) were flawless, as were the calorie counts, which McDonald's provides as the law requires and which serve as an example of accurate data reporting.
-            <br><br>
-            However, when Hickey looked to collect data on prices at McDonald's, he relied on a website[4] that in turn relied on unpaid "crowd-sourced" data reporting.
-            The data reporting was inaccurate, including the improbable assertion that a two-patty cheeseburger cost less than a one-patty cheeseburger. Since Hickey failed to review or scrutinize the incorrectly reported data, his analysis failed on multiple levels, leading to several blatantly false conclusions. After publication, reader complaints convinced Hickey to insert a correction for the prices of one of the burgers, but he failed to notice any of the other errors in his article. As none of the site's editors (including noted statistician Nate Silver) caught the error, the inaccurate analysis remained and indeed still remains available online.  
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <!-- Start Portfolio items -->
+                    <ul id="portfolio-list">
+                        <li>
+                            <div class="portfolio-item">
+                                <img src="images/portfolio/servicedesk.PNG" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>servicedesk</h4>
+                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="portfolio-item">
+                                <img src="images/portfolio/owncloud.PNG" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>owncloud</h4>
+                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="portfolio-item">
+                                <img src="images/portfolio/ctrader.PNG" class="img-responsive" alt="" />
+                                <div class="portfolio-caption">
+                                    <h4>ctrader</h4>
+                                    <a href="#portfolio-modal" data-toggle="modal" class="link-1"><i class="fa fa-magic"></i></a>
+                                    <a href="#" class="link-2"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </li>                            
+                    </ul>
+                    <!-- End Portfolio items -->
+                </div>
+            </div>
         </div>
     </section>
+    <!-- End Portfolio Section -->
     
     
     <!-- Start Footer Section -->
