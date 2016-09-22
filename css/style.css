@@ -289,8 +289,7 @@ li {
 	position: absolute;
 	z-index: 1001;
 	//width: 300px;
-	height: 100%;
-	background: #111;
+	height: 100%;	
 	padding: 2.5em 0;
 	font-size: 1.15em;
     
@@ -409,6 +408,8 @@ li {
 	-moz-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	-o-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+    background: #111;
+    height: 100%;
 }
 
 .show-menu .icon-list,
